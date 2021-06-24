@@ -1,5 +1,6 @@
 import "./App.css";
 import { Helmet } from "react-helmet";
+import Uploader from "./components/Uploader";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           content="How to upload files to S3 from your React application"
         />
       </Helmet>
+      <Uploader />
     </div>
   );
 }
