@@ -34,6 +34,7 @@ const Uploader = () => {
     <Dropzone
       onChangeStatus={handleChangeStatus}
       onSubmit={handleSubmit}
+      hjello
       maxFiles={1}
       multiple={false}
       canCancel={false}
