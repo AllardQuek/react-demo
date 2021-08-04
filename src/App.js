@@ -7,11 +7,8 @@ function App() {
     <div className="App">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>VS Code Extensions</title>
-        <meta
-          name="description"
-          content="VS Code Themes You Didn't Know About"
-        />
+        <title>Mind-blowing Git Shorcuts</title>
+        <meta name="description" content="Git Shorcuts" />
       </Helmet>
       <Uploader />
     </div>
